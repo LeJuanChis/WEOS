@@ -1,0 +1,311 @@
+.container-detail{
+    width: 100%;
+    height: auto;
+}
+
+.enterp-container{
+    background-color:  rgb(239,214,172);
+    border-radius: 3px;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 2rem;
+    border:black 1px solid;
+}
+
+.enterp-container .enterp-img{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+.enterp-container .enterp-img img{
+    width: 400px;
+    height: 350px;
+    border-radius: 100%;
+    border:black 1px solid;
+
+}
+.enterp-container .enterp-info{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.enterp-container .enterp-info p{
+    margin-top: 1rem;
+}
+.enterp-container .enterp-info .enterp-email span{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: calibry;
+}
+.btnSend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7A0310;
+    width: 13rem;
+    height: 3rem;
+    color: white;
+    margin: 2rem auto;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.tit{
+    text-align: center;
+    text-transform: uppercase;
+}
+.datatable-container{
+    background-color: rgb(239,214,172);
+    color: black;
+    margin: 3rem auto;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.datatable-container .buscar .search-input{
+    width: 50%;
+    margin: 2rem auto;    
+}
+
+.datatable-container .buscar .search-input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 1px black;
+    height: 2rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+
+.datatable-container .footer-tools{
+    padding: 2rem;
+    display: flex;
+    align-items: baseline;
+}
+
+.datatable-container .footer-tools .list-items{
+    width: 50%;
+}
+
+.datatable-container .footer-tools .pages{
+    margin-left: auto;
+    margin-right: 0;
+    width: 50%;
+
+}
+
+.datatable-container .footer-tools .pages ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.datatable-container .footer-tools .pages ul li{
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.datatable-container .footer-tools .pages ul li button{
+    color: black;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0; 
+    border-radius: 5px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.datatable-container .footer-tools .pages ul li button:hover{
+    background: #7A0310;
+    color: white;
+}
+
+.datatable-container .footer-tools .pages ul li span.active{
+    background-color: #7A0310;
+    border-radius: 5px;
+    color: white;
+}
+
+.datatable-container .footer-tools .pages ul li button,
+.datatable-container .footer-tools .pages ul li span{
+    padding: .5rem;
+}
+
+/*tabla*/
+
+.datatable-container .datatable{
+    border-collapse: collapse;
+    width: 100%;
+}
+.tr{
+    border-bottom: solid 1px black;
+
+}
+
+.datatable-container .datatable,
+.datatable-container .datatable th,
+.datatable-container .datatable td{
+    padding: 1rem;
+
+}
+
+.datatable-container .datatable th{
+    font-weight: bolder;
+    text-align: left;
+
+}
+
+.datatable-container .datatable td{
+    border-bottom: solid 1px #7A0310;
+}
+
+.datatable-container .datatable td a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.datatable-container .datatable tbody tr:nth-child(even){
+    background-color: #7A0310;
+    color: white;
+}
+
+.datatable-container .datatable tbody tr:hover{
+    background-color: #a1656c;
+    color: white;
+}
+
+.verCotizacion{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contador{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+    font-size: 1.3rem;
+}
+
+/*
+@media (min-width: 480px){
+    .enterp-container{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        height: 500px;
+    }
+
+    .enterp-container .enterp-img img{
+        margin-bottom: 0;
+    }
+}
+
+/*Links de la empresa*/
+
+.enterp-link{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.enterp-link .social-icon i{
+    font-size: 50px;
+    text-align: center;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-instagram-square{
+    color: #C13584; 
+}
+
+.fa-youtube{
+    color: #FF0000;
+}
+
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+.fa-whatsapp-square{
+    color: #4AC959;
+}
+
+/*carrityo de compras*/
+
+.card-products-car{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-products-car label{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .7rem;
+    font-size: 1.3rem;
+}
+
+.card-products-car input{
+    width: 15rem;
+    height: 2.5rem;
+    background-color: #7A0310;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.options a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.container-info-enterp{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.actualizar{
+    width: 80%;
+}
+
+.precio{
+    font-size: 25px;
+}
